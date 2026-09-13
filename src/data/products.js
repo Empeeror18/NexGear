@@ -5,7 +5,7 @@ const products = [
     category: "Consoles",
     price: 499.99,
     image:
-      "https://store.sony.co.nz/media/catalog/product/p/l/playstation5wslim.png",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhelios-i.mashable.com%2Fimagery%2Farticles%2F05Uv3oG3o5kh6djZHmwyhOT%2Fimages-5.fill.size_2000x1125.v1697141760.png&f=1&nofb=1&ipt=48f24fa94f7f6cae449f17e61b78c06009e68663277a10519662b2251081c2d9",
     description:
       "The PlayStation 5 Slim delivers next-generation gaming with ultra-fast SSD loading and stunning 4K graphics.",
     rating: 4.8,
@@ -17,7 +17,7 @@ const products = [
     category: "Consoles",
     price: 499.99,
     image:
-      "https://media.cdn.kaufland.de/product-images/1024x1024/0ec669be9811b9b470618a225214a878.jpg",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpress-start.com.au%2Fwp-content%2Fuploads%2F2019%2F12%2Fxbox-series-xxx.jpg&f=1&nofb=1&ipt=df7ec77c499b0d64f332fa630b00c0fe8304109afd2237c8299a08f1a5ae0a95",
     description:
       "Experience powerful next-generation gaming with 4K resolution and high frame rates.",
     rating: 4.7,
@@ -29,7 +29,7 @@ const products = [
     category: "Consoles",
     price: 349.99,
     image:
-      "https://d30u9wim1barf6.cloudfront.net/Custom/Content/Products/10/02/1002357_nac011484_l4_638170896476225092.jpg",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.nintendo.com%2Fph%2Fhardware%2Fdetail%2Fswitch-oled%2Fimg%2F01-bgdark%2FmodalPhoto%2FmodalPhoto-slideitem5.jpg&f=1&nofb=1&ipt=8b3de36d4cfe85d3ae2376ab3753607900c54c2615d67a2632a4ed0663a3ecb3",
     description:
       "Enjoy handheld and docked gaming with a vibrant 7-inch OLED display.",
     rating: 4.6,
@@ -41,7 +41,7 @@ const products = [
     category: "Accessories",
     price: 69.99,
     image:
-      "https://gamestore.com.kw/shop/s676776-ps5-dualsense-wireless-controller-white-5932",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FTzAS_g9OuWs%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=04a5db84fa61f4eb19f732788a404dcf8cd42644559446dc84622ba877fcf959",
     description:
       "Feel immersive haptic feedback and adaptive triggers with the PlayStation 5 DualSense controller.",
     rating: 4.8,
@@ -53,7 +53,7 @@ const products = [
     category: "Accessories",
     price: 59.99,
     image:
-      "https://media.cdn.kaufland.de/product-images/1024x1024/0ec669be9811b9b470618a225214a878.jpg",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FvCjVzVgxdWqvTygsr5JjvS-970-80.jpg&f=1&nofb=1&ipt=b40fac580a18a1642c67dcffabbf015afc6741c462fcf22f0d20d129bf195e5a",
     description:
       "Comfortable wireless controller compatible with Xbox consoles and PC.",
     rating: 4.5,
@@ -65,7 +65,7 @@ const products = [
     category: "Gaming Mice",
     price: 49.99,
     image:
-      "https://resource.logitech.com/content/dam/logitech/en/products/mice/g502-hero/gallery/g502-hero-gallery-1.png",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fresource.logitechg.com%2Fw_1206%2Cc_limit%2Cq_auto%2Cf_auto%2Cdpr_1.0%2Fd_transparent.gif%2Fcontent%2Fdam%2Fgaming%2Fen%2Fproducts%2Fg502x-lightspeed%2Fg502x-lightspeed-07-media-tile.png%3Fv%3D1&f=1&nofb=1&ipt=5b9280b42203cb0d4440e9b081772740952b78c63417956252bfd264ef65b21a",
     description:
       "High-performance gaming mouse featuring the HERO sensor and customizable buttons.",
     rating: 4.7,
@@ -73,11 +73,11 @@ const products = [
   },
   {
     id: 7,
-    name: "Razer DeathAdder V3",
+    name: "VXE Dragonfly R1 SE+",
     category: "Gaming Mice",
     price: 69.99,
     image:
-      "https://assets2.razerzone.com/images/pnx.assets/6f7d6a0e8f6d8f3e8d5c7c1e7c4c7d0f/deathadder-v3-pro-black.png",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.OuAnRQSVfBFwTuWnEPxSRwHaEK%3Fr%3D0%26pid%3DApi&f=1&ipt=dae0a8ed2603d48f53e109224f1659b6098ececd9f3dff69bd7f2f6054161fd1",
     description:
       "Lightweight ergonomic gaming mouse designed for competitive gaming.",
     rating: 4.8,
@@ -85,10 +85,11 @@ const products = [
   },
   {
     id: 8,
-    name: "SteelSeries Apex Pro",
+    name: "Ajazz AK820 Pro",
     category: "Gaming Keyboards",
     price: 179.99,
-    image: "https://steelseries.com/cdn/shop/files/apex-pro.png",
+    image:
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FerjqG9tvdZiYGBzCmyLgE4.jpg&f=1&nofb=1&ipt=c72106ff3e6091473794287e0438d20d84cc896127ffacebbb8a65840057142d",
     description:
       "Premium mechanical gaming keyboard with adjustable actuation switches and RGB lighting.",
     rating: 4.7,
@@ -96,33 +97,11 @@ const products = [
   },
   {
     id: 9,
-    name: "HyperX Alloy Origins",
-    category: "Gaming Keyboards",
-    price: 89.99,
-    image:
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6407/6407585ld.jpg",
-    description:
-      "Durable mechanical gaming keyboard with RGB lighting and responsive switches.",
-    rating: 4.6,
-    stock: 14,
-  },
-  {
-    id: 10,
-    name: "SteelSeries Arctis Nova 7",
-    category: "Gaming Headsets",
-    price: 149.99,
-    image: "https://m.media-amazon.com/images/I/61bM3jM8pYL.jpg",
-    description:
-      "Wireless gaming headset with high-quality audio and multi-platform support.",
-    rating: 4.7,
-    stock: 9,
-  },
-  {
-    id: 11,
     name: "HyperX Cloud III",
     category: "Gaming Headsets",
     price: 99.99,
-    image: "https://m.media-amazon.com/images/I/61e7b7k5YHL.jpg",
+    image:
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gizmochina.com%2Fwp-content%2Fuploads%2F2023%2F05%2FHyperX-Cloud-3.jpg&f=1&nofb=1&ipt=7497fb5c837c46cf3e804ba8dbbc35c6a8d6f0a6555b88deead072c6bb47eb14",
     description:
       "Comfortable wired gaming headset with detailed audio and a noise-cancelling microphone.",
     rating: 4.8,
@@ -131,5 +110,8 @@ const products = [
 ];
 
 export function getProducts() {
-    return products;
+  return products;
+}
+export function getProductById(id) {
+  return products.find((p) => p.id === Number(id));
 }
