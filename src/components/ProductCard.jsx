@@ -8,7 +8,7 @@ export default function ProductCard({product}) {
         <h3 className="product-card-name">{product.name}</h3>
         <p className="product-card-price">{product.price}</p>
         <div className="product-action">
-          <Link className="btn-sec"> View Details</Link>
+          <Link className="btn-sec" to={`/products/${product.id}`}> View Details</Link>
           <button className="btn-primary"> Add to Cart</button>
         </div>
       </div>
