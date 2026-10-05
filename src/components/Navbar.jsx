@@ -1,45 +1,53 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useAuth } from "../context/AuthContext.jsx";
 
 export default function Navbar() {
   const { user, logout } = useAuth();
 
   return (
-    <nav className="bg-[#1E2438]">
-      <div className="flex items-center justify-between px-10 py-5">
+    <nav className="border-b border-slate-700/60 bg-[#151b2d] shadow-lg shadow-slate-950/20">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-8">
         <Link to="/" className="text-xl font-bold">
           NexGear
         </Link>
 
         <div className="flex items-center gap-4 text-lg">
-          <Link to="/" className="hover:text-[#8B5CF6]">
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              `rounded px-2.5 py-2 font-semibold transition-colors ${isActive ? "bg-violet-500/15 text-violet-300" : "text-slate-300 hover:bg-slate-800 hover:text-white"}`
+            }
+          >
             Home
-          </Link>
+          </NavLink>
 
-          <Link to="/checkout" className="hover:text-[#8B5CF6]">
+          <NavLink
+            to="/checkout"
+            className={({ isActive }) =>
+              `rounded px-2.5 py-2 font-semibold transition-colors ${isActive ? "bg-violet-500/15 text-violet-300" : "text-slate-300 hover:bg-slate-800 hover:text-white"}`
+            }
+          >
             Cart
-          </Link>
+          </NavLink>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           {user ? (
             <>
-              <span className="hidden text-sm text-slate-300 sm:inline">
+              <span className="hidden max-w-40 truncate text-xs text-slate-400 sm:inline">
                 {user.email}
               </span>
               <button
                 type="button"
                 onClick={logout}
-                className="rounded-md border border-[#8B5CF6] px-4 py-2 font-semibold text-white hover:bg-[#8B5CF6] hover:cursor-pointer"
+                className="btn-sec cursor-pointer"
               >
                 Logout
               </button>
             </>
           ) : (
-            <Link
-              to="/auth"
-              className="rounded-md border border-[#8B5CF6] px-4 py-2 font-semibold text-white hover:bg-[#8B5CF6] hover:cursor-pointer"
-            >
+            <Link to="/auth" className="btn-primary">
               Login
             </Link>
           )}
