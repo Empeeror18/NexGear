@@ -1,16 +1,64 @@
-# React + Vite
+# NexGear
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern e-commerce storefront built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Product listing and detail pages
+- Shopping cart with quantity controls
+- Sign up and login flow
+- Checkout summary and order placement
+- Responsive dark-themed storefront UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- React Router
+- Tailwind CSS
+- LocalStorage-based cart/auth persistence
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open the local URL shown in the terminal, usually:
+   ```bash
+   http://localhost:5173
+   ```
+
+## Available Scripts
+
+```bash
+npm run dev
+npm run build
+npm run preview
+```
+
+## Project Structure
+
+```text
+src/
+  components/
+  context/
+  data/
+  pages/
+  App.css
+  App.jsx
+  main.jsx
+```
+
+## Notes
+
+- Product and cart data are stored in browser localStorage.
+- The app is a front-end demo and does not include a real backend or payment integration.
