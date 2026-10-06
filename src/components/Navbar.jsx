@@ -6,12 +6,12 @@ export default function Navbar() {
 
   return (
     <nav className="border-b border-slate-700/60 bg-[#151b2d] shadow-lg shadow-slate-950/20">
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-8">
-        <Link to="/" className="text-xl font-bold">
+      <div className="mx-auto grid max-w-7xl grid-cols-[1fr_auto_1fr] items-center gap-3 px-4 py-4 sm:px-8">
+        <Link to="/" className="justify-self-start text-xl font-bold">
           NexGear
         </Link>
 
-        <div className="flex items-center gap-4 text-lg">
+        <div className="flex items-center justify-center gap-4 text-lg">
           <NavLink
             to="/"
             end
@@ -32,7 +32,7 @@ export default function Navbar() {
           </NavLink>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center justify-self-end gap-2">
           {user ? (
             <>
               <span className="hidden max-w-40 truncate text-xs text-slate-400 sm:inline">

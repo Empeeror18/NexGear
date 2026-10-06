@@ -33,10 +33,10 @@ function Auth() {
 
   return (
     <div className="page">
-      <div className="container">
-        <div className="auth-container">
-          {user && <p>User logged in.</p>}
-          <h1 className="auth-title">
+      <div className="bg-[#171B2E] flex justify-center items-center mt-20 w-sm mx-auto rounded-xl p-12 border-1 border-white">
+        <div className="mx-auto w-full max-w-md">
+          {user && <p>User logged in: {user.email}</p>}
+          <h1 className="text-3xl font-bold mb-3">
             {mode === "signup" ? "Sign Up" : "Login"}
           </h1>
           <form className="auth-form" onSubmit={handleSubmit(onSubmit)}>
@@ -46,7 +46,7 @@ function Auth() {
                 Email
               </label>
               <input
-                className="form-input"
+                className="form-input rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
                 type="email"
                 id="email"
                 {...register("email")}
@@ -57,14 +57,14 @@ function Auth() {
                 Password
               </label>
               <input
-                className="form-input"
+                className="form-input rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 type="password"
                 id="password"
                 {...register("password")}
               />
             </div>
 
-            <button type="submit" className="btn-primary">
+            <button type="submit" className="btn-primary mt-1">
               {mode === "signup" ? "Sign Up" : "Login"}
             </button>
           </form>
