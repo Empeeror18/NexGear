@@ -40,7 +40,7 @@ function Auth() {
             {mode === "signup" ? "Sign Up" : "Login"}
           </h1>
           <form className="auth-form" onSubmit={handleSubmit(onSubmit)}>
-            {error && <div className="error-msg">{error}</div>}
+            {error && <div className="text-[#F43F5E]">{error}</div>}
             <div className="form-group">
               <label className="form-label" htmlFor="email">
                 Email
